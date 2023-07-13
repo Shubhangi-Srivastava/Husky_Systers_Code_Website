@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Passion+One:wght@400;700;900&family=Secular+One&display=swap");
+
+.navbar {
+  /* Styles for the navbar */
+  position: relative;
+  z-index: 2;
+  background-color: #41261d;
+  padding: 15px;
+}
+
+.nav-list {
+  /* Styles for the navigation list */
+  font-weight: bold;
+  font-size: large;
+  font-family: Freehand;
+
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list li {
+  /* Styles for the list items */
+  margin: 0 10px;
+}
+/* .link a {
+  transition: color 0.2s ease-in-out;
+} */
+.navbar-logo {
+}
+
+.navbar-logo img {
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 480px) {
+  .navbar {
+    /* Adjust styles for screens smaller than 480px */
+    padding: 5px;
+  }
+
+  .nav-list {
+    /* Adjust styles for screens smaller than 480px */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .nav-list li {
+    /* Adjust styles for screens smaller than 480px */
+    margin: 5px;
+  }
+}

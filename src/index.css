@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Passion+One:wght@400;700;900&family=Secular+One&display=swap");
+body {
+  background-color: #fff;
+  font-family: Secular One;
+}
