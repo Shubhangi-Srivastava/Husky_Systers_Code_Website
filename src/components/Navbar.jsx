@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes, FaLinkedin, FaInstagram } from "react-icons/fa";
 // import { FiTeams } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
+
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faTeams } from "@fortawesome/free-brands-svg-icons";
@@ -51,26 +52,26 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-end items-center w-full text-gray-300"
               href="/"
             >
-              LinkedIn <FaLinkedin size={30} />
+              <FaLinkedin size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-br from-yellow-500 via-red-500 to-purple-800">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-end items-center w-full text-gray-300"
               href="/"
             >
-              Instagram <FaInstagram size={30} />
+              <FaInstagram size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[gray]">
+          <li className="w-[160px] h-[60px] flex justtify-center items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[gray]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-end items-center w-full text-gray-300"
               href="/"
             >
-              Gmail <HiOutlineMail size={30} />
+              <HiOutlineMail size={30} />
             </a>
           </li>
         </ul>
