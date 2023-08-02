@@ -3,7 +3,7 @@ import { useState } from "react";
 import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-
+import AboutUs from "./components/AboutUs"
 // import AboutUs from "./components/AboutUs";
 const App = () => {
   return (
@@ -17,6 +17,7 @@ const App = () => {
     <div>
       <Navbar />
       <Home />
+      <AboutUs/>
     </div>
   );
 };
